@@ -1,0 +1,59 @@
+.parallax{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.parallax h1{
+    color: var(--blanco);
+    font-size: 1.8rem;
+    font-weight: 200;
+    text-transform: uppercase;
+}
+
+.bg-first{
+    background: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)),url(../../assets/img/in-air-caucasian-professional-male-athlete-runner-training-isolated-on-white-background.jpg);
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.bg-second{
+    background: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)),url(../../assets/img/strong-professional-swimmer-training.jpg);
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.bg-third{
+    background: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)),url(../../assets/img/closeup-of-jogger-man-near-the-sea.jpg);
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.no-parallax-first{
+    background: #212121;
+}
+
+.no-parallax-second{
+    background: #212121;
+    border-top: solid 2px var(--rojo-claro);
+}
+
+.no-parallax-second__title{
+    display: flex;
+    justify-content: center;
+    font-size: 1.7rem;
+    font-weight: 300;
+    color: var(--blanco);
+    padding: 10px;
+    text-transform: uppercase;
+}

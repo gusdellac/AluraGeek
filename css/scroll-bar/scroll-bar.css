@@ -1,0 +1,15 @@
+body::-webkit-scrollbar{
+    width: 15px;
+    background:  var(--gris-oscuro);
+}
+
+body::-webkit-scrollbar-thumb{
+    background: var(--gris-intermedio);
+    border-radius: 8px;
+    border-right: 2px solid  var(--gris-oscuro);
+    border-left: 2px solid  var(--gris-oscuro);  
+}
+
+body::-webkit-scrollbar-thumb:hover{
+    background: var(--gris-claro); 
+}

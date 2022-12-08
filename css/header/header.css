@@ -1,0 +1,123 @@
+.header{
+
+    position: fixed;
+    height: 100px;
+    width: 100%;
+    display: flex ;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    gap: 50px;
+    z-index: 1;
+    transition: all 0.3s ease-in-out 0.1s;
+}
+
+.active{
+    background: var(--blanco);
+    
+}
+
+.header__logo{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    
+}
+
+.header__menu-nav{
+    display: flex;
+}
+
+.header__menu-nav-lista{
+    list-style: none;
+    display: flex;
+    align-items: center;
+
+}
+
+.header__menu-nav-lista-item{
+    padding: 0 15px;
+    font-size: 1rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    cursor: pointer;
+    color: var(--gris-oscuro);
+}
+
+.header__menu-nav-lista-item:hover{
+    color: var(--rojo-claro);
+}
+
+.header__menu-nav-lista-item-icon{
+    fill: var(--gris-oscuro);
+}
+
+
+.header__menu-nav-lista-item-icon:hover{
+    fill: var(--rojo-claro);
+}
+
+.header__barra-busqueda{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header__barra-busqueda-input{
+    width: 393px;
+    height: 40px;
+    padding: 5px 16px;
+    background: #424242;
+    border-radius: 20px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #E0E0E0;
+    border: none;
+    outline: none;
+}
+
+.header__barra-busqueda-input::placeholder{
+    font-weight: 200;
+    color: #E0E0E0;
+}
+
+.header__barra-busqueda-input-icon{
+    position: relative;
+    top: 50%;
+    right: 10%;
+    display: none;
+}
+
+.header__barra-busqueda-input:focus{
+   background: transparent;
+   border: 1px solid #1ac008;
+   color: #000000;
+   font-size: 1.1rem;
+}
+
+.header__login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+.header__login-button{
+    width: 182px;
+    height: 51px;
+    border: 1px solid #424242;
+    border-radius: 20px;
+    color: #E0E0E0;
+    padding: 16px;
+    background: #424242;
+    cursor: pointer;
+}
+
+.header__login-button:hover{
+    border: 1px solid #1ac008;
+    background: transparent;
+    
+}
+.header__login-button:active{
+    transform: scale(0.98);
+    background: #2A7AE4;
+}
