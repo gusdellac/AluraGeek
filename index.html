@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="./css/cards/cards.css">
     <link rel="stylesheet" href="./css/productos-destacados/productos-destacados.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/about-us/about-us.css">
     <title>AluraGeek</title>
 </head>
 <body>
@@ -76,7 +77,7 @@
     <main>
        
         <section class="parallax bg-first">
-            <h1>Todos los deportes que buscas en un solo lugar</h1>
+            <h1  data-aos="zoom-in-up">Todos los deportes que buscas en un solo lugar</h1>
         </section>
         <section class="no-parallax-first">
             <div class="cards">
@@ -117,7 +118,7 @@
             </div>
         </section>
         <section class="parallax bg-second">
-            <h1>Los ganadores nunca se rinden y los que se rinden nunca ganan</h1>
+            <h1 data-aos="zoom-in-up">Los ganadores nunca se rinden y los que se rinden nunca ganan</h1>
         </section>
         <section class="no-parallax-second">
             <h1 class="no-parallax-second__title">Productos Destacados</h1>
@@ -224,14 +225,66 @@
             </div>
         </section>
         <section class="parallax bg-third">
-            <h1>No cuentes los días, has que los días cuenten</h1>
+            <h1 data-aos="zoom-in-up">No cuentes los días, has que los días cuenten</h1>
+        </section>
+
+        <section class="about-us">
+            <div class="about-us__title" data-aos="fade-right"
+            data-aos-offset="400"
+            data-aos-easing="ease-in-sine">
+                <h1>Nosotros</h1>
+            </div>
+            <div class="about-us__description" data-aos="fade-right"
+            data-aos-offset="400"
+            data-aos-easing="ease-in-sine">
+                <p>
+                    Somos un e-commerce especializado en indumentaria deportiva, con más de 10 años en la industria.<br>
+                    Garantizamos la calidad de nuestros productos trabajando con las mejores marcas.<br>
+                </p>
+            </div>
+
+            <div class="about-us__services">
+                <div class="services-card" data-aos="flip-left">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-box-fill" viewBox="0 0 16 16">
+                        <path class="services-card__icon" fill-rule="evenodd" d="M15.528 2.973a.75.75 0 0 1 .472.696v8.662a.75.75 0 0 1-.472.696l-7.25 2.9a.75.75 0 0 1-.557 0l-7.25-2.9A.75.75 0 0 1 0 12.331V3.669a.75.75 0 0 1 .471-.696L7.443.184l.004-.001.274-.11a.75.75 0 0 1 .558 0l.274.11.004.001 6.971 2.789Zm-1.374.527L8 5.962 1.846 3.5 1 3.839v.4l6.5 2.6v7.922l.5.2.5-.2V6.84l6.5-2.6v-.4l-.846-.339Z"/>
+                    </svg>
+                    <h4 class="services-card-title">Envíos a todo el país</h4>
+                </div>
+                <div class="services-card" data-aos="flip-left">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-credit-card-2-back-fill" viewBox="0 0 16 16">
+                        <path  class="services-card__icon" d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v5H0V4zm11.5 1a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h2a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-2zM0 11v1a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-1H0z"/>
+                    </svg>
+                    <h4 class="services-card-title">Todos los medios de pago</h4>
+                </div>
+                <div class="services-card" data-aos="flip-left">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-shield-lock-fill" viewBox="0 0 16 16">
+                        <path class="services-card__icon" fill-rule="evenodd" d="M8 0c-.69 0-1.843.265-2.928.56-1.11.3-2.229.655-2.887.87a1.54 1.54 0 0 0-1.044 1.262c-.596 4.477.787 7.795 2.465 9.99a11.777 11.777 0 0 0 2.517 2.453c.386.273.744.482 1.048.625.28.132.581.24.829.24s.548-.108.829-.24a7.159 7.159 0 0 0 1.048-.625 11.775 11.775 0 0 0 2.517-2.453c1.678-2.195 3.061-5.513 2.465-9.99a1.541 1.541 0 0 0-1.044-1.263 62.467 62.467 0 0 0-2.887-.87C9.843.266 8.69 0 8 0zm0 5a1.5 1.5 0 0 1 .5 2.915l.385 1.99a.5.5 0 0 1-.491.595h-.788a.5.5 0 0 1-.49-.595l.384-1.99A1.5 1.5 0 0 1 8 5z"/>
+                    </svg>
+                    <h4 class="services-card-title">Seguridad en tus compras</h4>
+                </div>
+                <div class="services-card" data-aos="flip-left">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-headset" viewBox="0 0 16 16">
+                        <path class="services-card__icon" d="M8 1a5 5 0 0 0-5 5v1h1a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V6a6 6 0 1 1 12 0v6a2.5 2.5 0 0 1-2.5 2.5H9.366a1 1 0 0 1-.866.5h-1a1 1 0 1 1 0-2h1a1 1 0 0 1 .866.5H11.5A1.5 1.5 0 0 0 13 12h-1a1 1 0 0 1-1-1V8a1 1 0 0 1 1-1h1V6a5 5 0 0 0-5-5z"/>
+                    </svg>
+                    <h4 class="services-card-title">Atención al cliente las 24 hs</h4>
+                </div>
+                <div class="services-card" data-aos="flip-left">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-cash-stack" viewBox="0 0 16 16">
+                        <path class="services-card__icon" d="M1 3a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1H1zm7 8a2 2 0 1 0 0-4 2 2 0 0 0 0 4z"/>
+                        <path class="services-card__icon" d="M0 5a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1V5zm3 0a2 2 0 0 1-2 2v4a2 2 0 0 1 2 2h10a2 2 0 0 1 2-2V7a2 2 0 0 1-2-2H3z"/>
+                    </svg>
+                    <h4 class="services-card-title">Si el producto no es lo que esperabas, te devolvemos tu dinero</h4>
+                </div>
+            </div>
         </section>
         
     </main>
     <footer class="footer">
+        
     </footer>
     <script src="./js/header-active.js"></script>
     <script src="./js/cards-hover.js"></script>
+    <script src="./js/services-hover.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>AOS.init();</script>
    
