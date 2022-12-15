@@ -1,14 +1,15 @@
 .cards{
-    /* display: flex;
+    display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    gap: 20px;
+    /* gap: 20px;
     padding: 100px 10px; */
     /* margin: 30px; */
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    
+    /* display: grid;
+    grid-template-columns: 1fr 1fr; */
     gap: 10px;
     padding: 50px 20px;
     border-top: solid 2px var(--rojo-claro);
@@ -16,8 +17,8 @@
 }
 
 .cards__box{
-    /* width: 420px;
-    height: 350px; */
+    width: 450px;
+    height: 350px;
     background: var(--gris-claro);
     padding: 15px;
     border-radius: 20px;
@@ -27,7 +28,15 @@
     align-items: center;
     justify-content: space-between;
     transition: 0.2s;
+    height: 380px;
 }
+
+/* .imagen-prueba{
+    width: 80%;
+    height: 70%;
+    object-fit: cover;
+    border-radius: 10px;
+} */
 
 .cards__box:hover{
     box-shadow: inset 0 0 0 1.5px var(--rojo-claro);

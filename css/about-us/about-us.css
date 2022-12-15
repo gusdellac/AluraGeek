@@ -7,6 +7,7 @@
     align-items: center;
     justify-content: space-evenly;
     border-top: solid 2px var(--rojo-claro);
+    border-bottom: solid 2px var(--gris-claro);
     background: var(--blanco);
 }
 
@@ -52,7 +53,8 @@
 
 .services-card:hover{
     box-shadow: inset 0 0 0 1.5px var(--rojo-claro);
-    transform: scale(1.01);
+    transform: scale(1.03);
+    -webkit-transform: scale(1.03);
     background: var(--gris-oscuro);
     transition: 0.2s;
 }

@@ -1,0 +1,44 @@
+.header__deportes-items{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    padding: 5px;
+    top: 70px;
+    background: var(--gris-intermedio);
+    width: 100%;
+    height: auto;
+    border-bottom: solid 1px var(--gris-intermedio);
+    display: none;
+}
+
+.header__deportes-list{
+    display: flex;
+    flex-direction: row;
+
+    margin: 5px 20px;
+}
+
+.header__deportes-list-item{
+    color: var(--blanco);
+    margin: 0 10px;
+    list-style: none;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    font-weight: 400;
+}
+
+.header__deportes-list-item:hover{
+    cursor: pointer;
+    color: var(--rojo-claro);
+}
+
+.active-box{
+    display: flex;
+    transition: all 0.3s ease-in-out 0.1s;
+}
+
+.active-scroll{
+    background: var(--gris-oscuro);
+}

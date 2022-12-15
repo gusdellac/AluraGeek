@@ -21,8 +21,10 @@
     display: flex;
     animation: scroll 30s linear infinite;
     -webkit-animation: scroll 30s linear infinite;
-    width: calc(200px * 14);
+    width: calc(200px * 18);
     gap: 10px;
+    height: 210px;
+    align-items: center;
 }
 
 .slider .slide{
@@ -31,6 +33,7 @@
 
 .slider .slide img{
     width: 100%;
+    transition: 0.3s;
     
 }
 
@@ -39,14 +42,20 @@
     cursor: pointer;
 }
 
+.slide img:hover{
+    transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    transition: 0.3s;
+}
+
 @keyframes scroll{
     0%{
         -webkit-transform: translateX(0);
         transform: translateX(0);
     }
     100%{
-        -webkit-transform: translateX(calc(-200px * 7));
-        transform: translateX(calc(-200px * 7));
+        -webkit-transform: translateX(calc(-200px * 9));
+        transform: translateX(calc(-200px * 9));
     }
 }
 
