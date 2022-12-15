@@ -3,4 +3,33 @@
     height: 200px;
     background: #212121;
     border-top: solid 2px var(--rojo-claro);
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.footer__powered{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.footer__powered-text{
+    display: flex;
+    align-items: center;
+}
+
+.footer__powered-text-icon{
+    margin: 0 10px;
+}
+
+.footer__powered-text {
+    font-size: 1.2rem;
+    font-weight: 300;
+    color: var(--gris-claro);
+}
+
+.footer__powered-text-icon-fill{
+    fill: var(--gris-claro);
 }

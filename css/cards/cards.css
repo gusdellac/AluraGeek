@@ -4,12 +4,6 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    /* gap: 20px;
-    padding: 100px 10px; */
-    /* margin: 30px; */
-    
-    /* display: grid;
-    grid-template-columns: 1fr 1fr; */
     gap: 10px;
     padding: 50px 20px;
     border-top: solid 2px var(--rojo-claro);
@@ -31,21 +25,12 @@
     height: 380px;
 }
 
-/* .imagen-prueba{
-    width: 80%;
-    height: 70%;
-    object-fit: cover;
-    border-radius: 10px;
-} */
-
 .cards__box:hover{
     box-shadow: inset 0 0 0 1.5px var(--rojo-claro);
     transform: scale(1.01);
     background: transparent;
     transition: 0.2s;
 }
-
-
 
 .cards__title{
     color: var(--gris-oscuro);
@@ -54,7 +39,6 @@
 .title-hover{
     color: var(--rojo-claro);
 }
-
 
 .cards__box img{
     padding: 10px;
